@@ -25,11 +25,11 @@ SUBDIRS := \
 Core/Src \
 Core/Startup \
 Drivers/STM32F4xx_HAL_Driver/Src \
-Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src \
-Middlewares/ST/STM32_USB_Host_Library/Core/Src \
 ThirdParty/FreeRTOS \
 ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F \
 ThirdParty/FreeRTOS/portable/MemMang \
-USB_HOST/App \
-USB_HOST/Target \
+ThirdParty/SEGGER/Config \
+ThirdParty/SEGGER/OS \
+ThirdParty/SEGGER/SEGGER \
+ThirdParty/SEGGER/SEGGER/Syscalls \
 
